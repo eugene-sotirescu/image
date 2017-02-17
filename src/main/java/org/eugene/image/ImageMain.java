@@ -34,7 +34,7 @@ public class ImageMain {
 			System.err.println("Not a supported image file format.");
 			return;
 		}
-
+		
 		int width = imageInfo.getWidth();
 		int height = imageInfo.getHeight();
 		int heightByWidth = width * height;
@@ -51,6 +51,9 @@ public class ImageMain {
 				+ isAnimatedGif 
 				+ isProgressive +
 				+ imageInfo.getBitsPerPixel() + " bits per pixel.");
+		
+		ImageInfo.printVerbose("verbose", imageInfo);
+
 	}
 
 }

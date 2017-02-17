@@ -1060,7 +1060,7 @@ public class ImageInfo {
      System.out.println(value);
  }
 
- private static void printVerbose(String sourceName, ImageInfo ii) {
+ public static void printVerbose(String sourceName, ImageInfo ii) {
      printLine(0, null, sourceName);
      printLine(1, "File format: ", ii.getFormatName());
      printLine(1, "MIME type: ", ii.getMimeType());
