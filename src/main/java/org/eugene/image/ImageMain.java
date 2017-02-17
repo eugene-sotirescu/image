@@ -11,6 +11,8 @@ public class ImageMain {
 		getImageInfo(Thread.currentThread().getContextClassLoader().getResourceAsStream("1.60MB.jpg"));
 		getImageInfo(Thread.currentThread().getContextClassLoader().getResourceAsStream("5.78MB.jpg"));
 		getImageInfo(Thread.currentThread().getContextClassLoader().getResourceAsStream("zalman.jpg"));
+		System.out.println("\nthank you Marco Schmidt!");
+
 	}
 
 
