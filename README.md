@@ -1,1 +1,1 @@
-# image
+# Pull it down and run the main class.
